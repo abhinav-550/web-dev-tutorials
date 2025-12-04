@@ -1,0 +1,168 @@
+<!-- ! -->
+<!-- HTML -> Hyper Text Markup Language  -->
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Hidden Stuff like metadata title scripts -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		body{
+			overflow: auto;
+			margin-bottom: 1000px;
+		}
+	</style>
+
+	<title>Document</title> <!-- heading -->
+</head>
+<body> <!-- Main part -->
+<!-- <element> <element/> -->
+
+<!-- Container / Division (Used as container)-->
+	<!--<div>Hello!</div> -->
+
+	<!-- h1 -> h5 (decreasning order of size) -->
+	<!--<h1>HEADING 1</h1> 
+	<h2>HEADING 2</h2>
+	<h3>HEADING 3</h3>
+	<h4>HEADING 4</h4>
+	<h5>HEADING 5</h5>-->
+
+	<!-- Paragraph -->
+	 <!--<p>This is a very good text.</p>-->
+
+
+	 <!-- Nesting Containers -->
+
+	 <div>
+		<div>
+			<div>Fruits</div>
+			<div>Apple</div>
+			<p>Banana</p>
+			<p>Watermelon</p>
+			<p>Pear</p>
+		</div>
+		
+		<div>
+			<h1>Vegetables</h1>
+			<p>Brinjal</p>
+			<p>Aloo</p>
+			<p>Spinach</p>
+		</div>
+	 </div>
+
+
+	 <!-- Semenatics -> Something that has meaning -->
+	  <!-- Semenatics elements ->  section , main , p , table , form , lists  -->
+
+	 <!-- Lists -> Collections of items  -->
+<!-- ordered lists -> Numbering (ol) -->
+
+	<ol type="I">
+		 <h1>Fruits</h1>
+		<li>Apple</li>
+		<li>Banana</li>
+		<li>Watermelon</li>
+		<li>Pear</li>
+	 </ol>
+	 
+	 
+	 <!-- unordered lists -> No-Numnbering (ul)  -->
+	 <ul>
+		<li>Apple</li>
+		<li>Banana</li>
+		<li>Watermelon</li>
+		<li>Pear</li>
+	 </ul>
+	
+	 <!-- Testing -> Dummy text -->
+	 <!--<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui sint eius, voluptatem a, magnam porro et iste fugit, fuga aliquid. Molestiae laboriosam omnis modi nam explicabo illum ullam voluptatem reprehenderit ab nisi totam ipsam aliquid amet, assumenda cumque provident atque, suscipit hic eaque in doloribus fuga doloremque quaerat eius!</div>-->
+
+	 <!-- Tables -> Organizing elements using rows and cols -->
+	 <table >
+		<tr> <!--Table row-->
+			<td>Monday</td> 
+			<td>Tuesday</td> 
+			<td>Wendesday</td> <!-- Table Detail-->
+			<td>Thursday</td> 
+			<td>Friday</td> 
+		</tr>	
+		<tr>
+			<td>Science</td>
+			<td>Maths</td>
+			<td>Games</td>
+			<td>Games</td>
+			<td>Physics</td>
+		</tr>
+	 </table>
+
+	 
+
+	 <!-- a tag -> anchor tag -> redirection (Links) -->
+	 <a href="http://www.google.com" target="_blank">Link to google</a>
+
+	 <!-- img tag -> adds images  -->
+	 <img src="https://t3.ftcdn.net/jpg/01/39/57/98/360_F_139579875_x5jJX0QBhdjzDJbjB9abyHK6k0xDr1nf.jpg" alt="Red Apple" width="50" height="80">
+	 
+	 <!-- forms -> asks user for answer (inputs) -->
+	<form action="">
+		<!-- Text field -> Input -->
+		<label for="Name">Name:</label>
+		<input type="text" id="Name">
+		
+		<label for="Email">Email:</label>
+		<input type="email" id="Email">
+
+
+		<!-- Types of input -->
+		 <label for="password" >Your password:</label>
+		<input type="password" id="password"> <!-- Password -> dotted -->
+
+		<label for="Smoker">Do u smoke?</label>
+		<input type="checkbox" name="smoker" id="Smoker">
+
+		<label for="date">DOB:</label>
+		<input type="date" id="date">
+
+		<!-- Select -> Drop  Down -->
+		 <label for="Gender">Gender:</label>
+		<select name="Gender" id="Gender">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+		</select>
+
+		<!-- Text Area -> Bigger text fields -->
+		<label for="Answer">Write your answer:</label>
+		<textarea name="Answer" id="Answer" rows="10" cols="8"></textarea>
+
+		<button type="submit">Submit</button>
+	</form>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<!-- Inline and Block elements -->
+	<!-- HTML has 2 types of elements. 
+	Block -> It takes the entire width of its container. eg: div , p 
+	Inline -> It takes only size it needs. eg: span 
+	-->
+
+	<!-- Block elements -->
+	<div style="border: 1px solid black;">Hello</div>
+	<p style="border: 1px solid black;">World</p>
+
+
+	<!-- Inline elements -->
+	<span style="border: 1px solid black;">Hello</span>
+
+
+
+	<!-- Q1: Create a simple introduction page about urself  -->
+	<!-- Q2: Build a form using 4 things, Username Password Email Sports (Cricket , Football , Hockey) -->
+
+
+	</body>
+</html>
