@@ -1,0 +1,93 @@
+/* ------------------------------------------------------- */
+/* Selectors -> Used for targeting HTML elements  */
+
+/* * -> Universal Selectors -> Applies to all elements */
+*{
+	/*border: 1px solid white;*/
+	font-size: 10px;
+
+	/*1rem = 10px ,by default it is 16px*/
+}
+
+.container{
+	width: 100px; 
+	height: 100px;
+	border: 1px solid white;
+}
+
+.child{
+	width : 50%;
+	height: 100%;
+	background-color: aqua;
+}
+
+/* Element Selector -> div , p , heading  */
+div{
+	background-color: white;
+	width: 50px;
+	height: 50px;
+}
+
+/* Class Selector -> Used by . followed by the class name */
+.green-box{
+	background-color: green;
+}
+
+/* ID selected -> used by # followed by the id name */
+#unique-green-box{
+	background-color: lightgreen;
+}
+
+
+/* Group Selectors  */
+.green-box , .red-box{
+	background-color: yellow;
+}
+
+/* ------------------------------------------------------- */
+/* Colors, fonts, units, spacing (margin, padding) */
+
+
+/* color -> text color  */
+/* background-color -> background color  */
+/* font -> font family */
+
+.essay{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 100; /* Boldness */
+	/*font-size: 1em; 1em = 16px */
+	font-size: 1rem;
+	/*font-size: 16px;*/
+ 
+	font-style:italic;
+	letter-spacing: 0.2em;
+
+
+	/* Units -> px (pixel) , em , rem */
+	/* Pixel -> 2px (phone mei bhi 2 pixel and laptop mei bhi 2 pixel) , scaling issues */
+	/* em -> relative unit  */
+	/* rem -> relative unit but the user can define the relativity  */
+	/* % -> % of parent container */
+}
+
+.sumbit-button{
+	/*margin: 2em; 4 - direction */
+	margin-bottom: 10em ;
+	margin-top: 10em ;
+	margin-left: 10em ;
+	margin-right: 10em ;
+	
+	/*padding: 1em;*/
+	padding-bottom: 10em ;
+	padding-top: 10em ;
+	padding-left: 10em ;
+	padding-right: 10em ;
+
+
+	border: 1px solid white;
+}
+
+
+
+
+/* Margin ->  */
