@@ -1,0 +1,52 @@
+.container{
+	margin: 20px;
+	width: 1000px;
+	height: 500px;
+	border: 5px solid black;
+
+	/* Applying flex box property */
+	display: flex;
+	/* Main Axis -> The layout ka direction decide karta , sets the main axis direction */
+	/* Main axis -> column by default */
+	flex-direction: row;
+
+	/* Justify Content -> Main axis direction uske hisab se arrange kardega */
+	/* different options: center , flex-start , flex-end , space-around , space-between , space-evenly */
+	justify-content:center;
+
+	/* Algin items -> Main axis ke perpendicular ke line imagine karo, wo waise arrange karega */
+	/* Axis perpendicular to main axis is cross axis */
+	align-items:center;
+
+	/* Flex Wrap */
+	/* Whether items should stay in one row ya mutiple */
+	/*flex-wrap: wrap;*/
+
+	/* gap -> gap between flex items , margin but can only be used in flexbox*/
+	gap: 1em;
+
+}
+
+.children{
+	width: 50px;
+	height: 50px;
+	background-color: red ;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+
+
+	/*display -> Is used to set what will be the behaviour of this element */
+	/* block , inline , inline-block , flex (Flexbox) , none */
+
+	/*display: none;*/
+	/*None -> Removes the element 
+	/* Inline -> Only takes the width of the content */
+	/* Block -> Only takes the width of the container */
+	/* inline-block -> It acts like inline element, lekin weight and height can be given */
+	display: inline-block;
+	margin: 5px;
+}
